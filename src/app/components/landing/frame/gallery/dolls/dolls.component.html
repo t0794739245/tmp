@@ -1,0 +1,19 @@
+<div>
+  <h3 [innerHTML]="tr.menu_dolls"></h3>
+
+  <div class="container" *ngFor="let l of list">
+    <ng-template ngFor let-img [ngForOf]="l" let-i="index" let-even="even">
+      <div class="img" (click)="popup(l, i)" >
+        <div class="picture"
+             [style.backgroundImage]="'url('+img.path+')'"
+        >
+          <div class="panel" *ngIf="img.name">
+            <p class="header" [innerHTML]="img.name">Марина</p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+
+  </div>
+
+</div>

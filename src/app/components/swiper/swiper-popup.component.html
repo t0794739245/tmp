@@ -1,0 +1,11 @@
+<div class="swiper-container" [style.display]="list&&list.length?'block':'none'"  >
+  <div class="icon-close" (click)="off()" ></div>
+  <div class="btn-left" (click.stop)="prev()"><div class="icon-left"></div></div>
+  <div class="btn-right" (click.stop)="next()"><div class="icon-right"></div></div>
+
+  <swiper>
+    <div *ngFor="let img of list" class="frame">
+      <div [style.backgroundImage]="'url('+img.path+')'" class="content"></div>
+    </div>
+  </swiper>
+</div>

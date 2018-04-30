@@ -1,0 +1,92 @@
+@import "~compass-mixins/lib/compass"
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables"
+\:host
+  .root-container
+    width: 100%
+    height: 100px
+
+  .dynamic-container
+    z-index: 1
+    position: relative
+    width: 100%
+    height: 100px
+    line-height: 100px
+    transition: all .5s ease
+    .bg
+      background-color: rgba(black, .6)
+      background-image: url(/assets/bg/menu.png)
+      background-size: cover
+      background-repeat: no-repeat
+
+    &.fixed
+      position: fixed
+      height: 72px
+      line-height: 50px
+      app-menu-langs
+        line-height: 72px
+        height: 72px
+      a
+        padding: 15px
+
+  .container
+    font-weight: 100
+    app-menu-langs
+      float: right
+      height: 100px
+      line-height: 100px
+      padding: 0
+
+    a
+      line-height: 2em !important
+      padding: 20px
+
+    a, app-menu-langs
+      vertical-align: middle
+      text-decoration: none
+      color: #eee
+      display: inline-block
+      transition: all .2s ease
+
+      &:hover
+        background-color: rgba(black, .4)
+      &.icon
+        font-size: 0
+        background-size: 35% 35%
+        background-repeat: no-repeat
+        background-position: center
+        padding: 36px
+
+
+
+  .desktop
+    display: none
+    @media (min-width: $screen-sm)
+      display: block
+
+  .mobile
+    text-align: left
+    display: block
+    @media (min-width: $screen-sm)
+      display: none
+    .burger
+      display: inline-block
+      div
+        width: 35px
+        height: 5px
+        background-color: white
+        margin: 6px
+        display: block
+        transition: all .3s ease
+
+  .active
+    .mobile
+      .burger
+        div
+          &:nth-child(1)
+            @include transform(rotate(45deg) translate(7px, 8px))
+
+          &:nth-child(2)
+            @include opacity(.01)
+
+          &:nth-child(3)
+            @include transform(rotate(-45deg) translate(7px, -9px))

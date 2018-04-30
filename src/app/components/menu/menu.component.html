@@ -1,0 +1,41 @@
+<div #root class="text-center root-container background-white" [ngClass]="{'active':isMobileMenu}">
+  <div class="text-center dynamic-container" [class.fixed]="!isOnTop">
+    <div class="bg">
+      <div class="container">
+
+        <div class="desktop">
+          <a
+            *ngFor="let item of menuItems"
+            [routerLink]="item.url?['/', currLang.name, item.url]:['/', currLang.name]"
+            [class.icon]="item.icon"
+            [ngClass]="'icon-'+item.icon"
+            [innerHTML]="tr[item.name]"></a>
+
+          <app-menu-langs></app-menu-langs>
+        </div>
+        <div class="mobile">
+          <a class="burger" (click.stop)="swapMobileMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </a>
+        </div>
+
+        <!-- mat-toolbar>
+          <mat-toolbar-row>
+            <span>Lidaart</span>
+            <mat-menu #appMenu="matMenu">
+              <button mat-menu-item>Settings</button>
+              <button mat-menu-item>Help</button>
+            </mat-menu>
+
+            <button mat-icon-button [matMenuTriggerFor]="appMenu">
+              <mat-icon>more_vertt</mat-icon>
+            </button>
+          </mat-toolbar-row>
+
+        </mat-toolbar -->
+      </div>
+    </div>
+  </div>
+</div>

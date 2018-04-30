@@ -1,0 +1,169 @@
+[
+  {
+    "name": "MAG / Montreux",
+    "from": "07-11-2018",
+    "to": "11-11-2018",
+    "descripton": "Presenterò i miei dipinti su questa mostra una seconda volta. Vieni a tutti gli auguri per la mostra MAG a novembre di quest'anno.",
+    "images": [
+      {
+        "path": "/assets/expo/20181108_mag/background_2018.png"
+      },
+      {
+        "path": "/assets/expo/20181108_mag/montreux-art-gallery-photo-2015-001-689x1024.jpg"
+      },
+      {
+        "path": "/assets/expo/20181108_mag/montreux-art-gallery-photo-2015-004-1024x732.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Yverdon",
+    "from": "20-12-2016",
+    "to": "31-12-2016",
+    "descripton": "Nella città di Yverdon, ho esposto le mie opere ad acquerello e due bambole",
+    "images": [
+      {
+        "path": "/assets/expo/20180412_yverdon/IMG-20180429-WA0055.jpg"
+      },
+      {
+        "path": "/assets/expo/20180412_yverdon/IMG-20180429-WA0027.jpg"
+      },
+      {
+        "path": "/assets/expo/20180412_yverdon/IMG-20180429-WA0028.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Espace 25 / Fribourg",
+    "from": "02-12-2016",
+    "to": "16-12-2016",
+    "descripton": "A dicembre 2017, la mia mostra si è svolta nell'Espace-25, che si trova nel centro della città di Friburgo.",
+    "images": [
+      {
+        "path": "/assets/expo/20171202_fribourg/flyer-2017-1.png"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG_2241.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0003.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0007.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0022.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0023.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0024.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0048.jpg"
+      },
+      {
+        "path": "/assets/expo/20171202_fribourg/IMG-20180429-WA0053.jpg"
+      }
+    ]
+  },
+  {
+    "name": "MAG / Montreux",
+    "from": "09-11-2016",
+    "to": "21-11-2016",
+    "descripton": "La più grande mostra nella Svizzera francese MAG. La mostra è frequentata da oltre 70 gallerie e più di cento artisti.",
+    "images": [
+      {
+        "path": "/assets/expo/20161109_mag/mag2016.png"
+      },
+      {
+        "path": "/assets/expo/20161109_mag/IMG_2091.jpg"
+      },
+      {
+        "path": "/assets/expo/20161109_mag/IMG_2092.jpg"
+      },
+      {
+        "path": "/assets/expo/20161109_mag/IMG_2093.jpg"
+      },
+      {
+        "path": "/assets/expo/20161109_mag/IMG_2099.jpg"
+      },
+      {
+        "path": "/assets/expo/20161109_mag/IMG_2102.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Forum de l'Hôtel de Ville / Lausanne",
+    "from": "18-01-2018",
+    "to": "30-01-2018",
+    "descripton": "Nel gennaio del 2018 ho partecipato alla mostra di 10 artisti russi. La mostra si è tenuta nel centro storico di Losanna.",
+    "images": [
+      {
+        "path": "/assets/expo/20180118_laussane/IMG-20180429-WA0037.jpg"
+      },
+      {
+        "path": "/assets/expo/20180118_laussane/IMG-20180429-WA0009.jpg"
+      },
+      {
+        "path": "/assets/expo/20180118_laussane/IMG-20180429-WA0018.jpg"
+      },
+      {
+        "path": "/assets/expo/20180118_laussane/IMG-20180429-WA0035.jpg"
+      },
+      {
+        "path": "/assets/expo/20180118_laussane/IMG-20180429-WA0036.jpg"
+      },
+      {
+        "path": "/assets/expo/20180118_laussane/IMG-20180429-WA0038.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Phenix / Fribourg",
+    "from": "15-04-2016",
+    "to": "30-04-2016",
+    "descripton": "Mostra personale nel centro del forum di Phoenix",
+    "images": [
+      {
+        "path": "/assets/expo/20160415_phenix/flyer2.jpg"
+      },
+      {
+        "path": "/assets/expo/20160415_phenix/IMG_1843.jpg"
+      },
+      {
+        "path": "/assets/expo/20160415_phenix/IMG_1844.jpg"
+      },
+      {
+        "path": "/assets/expo/20160415_phenix/IMG_1845.jpg"
+      },
+      {
+        "path": "/assets/expo/20160415_phenix/IMG_1846.jpg"
+      },
+      {
+        "path": "/assets/expo/20160415_phenix/IMG_1858.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Nest gallery / Geneva",
+    "from": "20-12-2015",
+    "to": "31-12-2015",
+    "descripton": "La mia prima mostra si è tenuta presso la Nest Gallery di Ginevra dal 24 al 31 gennaio 2015",
+    "images": [
+      {
+        "path": "/assets/expo/20151221_nest/0.jpg"
+      },
+      {
+        "path": "/assets/expo/20151221_nest/1.jpg"
+      },
+      {
+        "path": "/assets/expo/20151221_nest/2.jpg"
+      },
+      {
+        "path": "/assets/expo/20151221_nest/3.jpg"
+      }
+    ]
+  }
+]

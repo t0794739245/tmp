@@ -1,0 +1,35 @@
+<div class="background-white clearfix">
+  <div class="container text-center">
+    <h2 [innerHTML]="tr.page_about_header" class="text-center"></h2>
+
+    <div class="container-small">
+      <hr class="dark dotted">
+
+      <div class="col-sm-8 text-left">
+
+        <p [innerHTML]="tr.page_about_p1"></p>
+        <p [innerHTML]="tr.page_about_p2"></p>
+        <p [innerHTML]="tr.page_about_p3"></p>
+        <p [innerHTML]="tr.page_about_p4"></p>
+        <p >
+          <span [innerHTML]="tr.page_about_contacts1"></span>
+          <a [href]="'mailto:'+env.email" [innerHTML]="env.email"></a>
+          <span [innerHTML]="tr.page_about_contacts2"></span>
+          <a [href]="'tel:'+env.tel" [innerHTML]="env.tel"></a>
+
+        </p>
+      </div>
+
+      <div class="img col-sm-4" (click)="popup()" >
+        <div class="picture"
+             [style.backgroundImage]="'url('+img.path+')'"
+        >
+          <img [src]="img.path" class="width-full">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="hr white-end"></div>
+

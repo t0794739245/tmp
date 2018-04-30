@@ -1,0 +1,30 @@
+<div class="background-white">
+  <div class="container text-center frame">
+    <h1 [innerHtml]="tr.page_aqua_header"></h1>
+    <hr class="width-60 dark dotted">
+    <p [innerHtml]="tr.page_aqua_welcome_message"></p>
+    <a class="btn" [routerLink]="['/', currLang.name, 'oil']" [innerHTML]="tr.page_aqua_to_see_oil"></a>
+  </div>
+
+  <div class="container container-vertical-grid">
+    <ng-template ngFor let-img [ngForOf]="list" let-i="index" let-even="even">
+      <div class="img" (click)="popup(i)" >
+        <div class="picture"
+             [class.double]="img.vertical"
+             [style.backgroundImage]="'url('+img.path+')'"
+        >
+          <div class="image-panel">
+            <p class="header">
+              <span [innerHTML]="img.name"></span>
+              <span class="sold" *ngIf="img.sold">(<span [innerHTML]="tr.sold"></span>)</span>
+            </p>
+            <p class="size" *ngIf="img.format" [innerHTML]="img.format"></p>
+          </div>
+        </div>
+      </div>
+
+    </ng-template>
+  </div>
+</div>
+
+<div class="hr white-end"></div>

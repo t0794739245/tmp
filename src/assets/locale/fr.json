@@ -1,0 +1,47 @@
+{
+  "september": "Septembre",
+  "sold": "Vendu",
+  "menu_hompage": "Homepage",
+  "menu_oil": "Images d'huile",
+  "menu_aqua": "Aquarelle",
+  "menu_dolls": "Poupées d'art",
+  "menu_expo": "Exposition",
+  "menu_about": "À propos de moi",
+
+  "hp_header": "Lida Khomyakova",
+  "hp_header_gallery": "Galerie de mes photos",
+  "hp_welcome_message": "Permettez-moi de me présenter, je m'appelle Khomyakova Lilia, je suis une artiste russe qui vit en Suisse.<br/>Je peins des aquarelles et des peintures à l'huile, ainsi que des poupées de collection.",
+  "hp_to_see_aqua": "Pour voir toute l'image de l'aquarelle",
+  "hp_to_see_oil": "Pour voir toute l'image de l'huile",
+
+  "frame_mag_header": "Je voudrais vous inviter sur ma prochaine exposition",
+  "frame_mag_partner": "Sur le MAG i présenté par",
+  "frame_mag_expo_history": "Histoire de mes expositions",
+
+  "frame_workshop_paint": "Peindre",
+  "frame_workshop_can": "peut",
+  "frame_workshop_everyone": "toutes",
+  "frame_workshop_description": "Je vous invite à ma formation en ligne sur le site www.master-art.ch",
+
+  "page_expo_title": "Mes expositions",
+
+  "page_aqua_header": "Images aquarelles",
+  "page_aqua_welcome_message": "Ici présente seulement des images aquarelles. Vous pouvez jeter un oeil à mes photos d'huile.",
+  "page_aqua_to_see_oil": "Pour voir des images d'huile",
+
+  "page_oil_header": "Images d'huile",
+  "page_oil_welcome_message": "Ici présente seulement des images d'huile. Vous pouvez jeter un oeil à mes photos d'aquarelles",
+  "page_oil_to_see_aqua": "Pour voir des photos à l'aquarelle",
+
+  "page_dolls_header": "Poupées de collection",
+  "page_dolls_welcome_message": "Ici vous pouvez trouver mes plusieurs poupées.",
+
+  "page_about_header": "À propos de moi",
+  "page_about_p1": "J'ai toujours aimé créer. Depuis l'âge de 7 ans, j'ai assisté à l'atelier d'architecture de Vladislav Kirpichev (lauréat du prix UNESCO). Qu'est-ce que cela m'a donné? Le vol de fantaisie, le produit de l'imagination. C'est là que j'ai appris à penser de manière créative. Après l'école j'ai assisté aux cours sur la composition, le dessin et la peinture pour obtenir une possibilité d'obtenir l'enseignement supérieur à l'Université d'Etat Stroganov des Arts et de l'Industrie de Moscou. Mes techniques préférées sont l'aquarelle, la peinture à l'huile, la sculpture.",
+  "page_about_p2": "Après mon diplôme, j'ai eu la chance de collaborer avec de nombreux architectes expérimentés et talentueux. Ensemble, nous avons réalisé les idées et les concepts les plus audacieux. Et puis j'ai réalisé qu'il ne me suffisait pas d'avoir une approche créative. En tant que concepteur d'architecture, j'ai dû apprendre à entendre le client, réaliser tous ses plans et ses idées et penser de façon créative.",
+  "page_about_p3": "De plus, j'ai toujours été charmé par le monde des poupées. J'ai été diplômée de l'école d'art de poupée de Moscou et j'ai participé à de nombreuses expositions d'art à la Maison centrale de l'artiste et à la galerie d'Elena Gromova.",
+  "page_about_p4": "Et maintenant j'apprends aux enfants à penser, à voir, à travailler. C'est pourquoi j'ai suivi les cours d'Art Thérapie d'abord à Moscou, puis dans une école d'art à Milan.",
+  "page_about_contacts1": "If you have an excuse to contact me, you can always write to me by e-mail",
+  "page_about_contacts2": "ou appelez-moi au numéro"
+
+}

@@ -1,0 +1,47 @@
+{
+  "september": "Settembre",
+  "sold": "Venduto",
+  "menu_hompage": "Homepage",
+  "menu_oil": "Quadri a olio",
+  "menu_aqua": "Acquerello",
+  "menu_dolls": "Bambole d'arte",
+  "menu_expo": "Esposizione",
+  "menu_about": "A proposito di me",
+
+  "hp_header": "Lida Khomyakova",
+  "hp_header_gallery": "Galleria delle mie immagine",
+  "hp_welcome_message": "Permettimi di presentarmi, mi chiamo Khomyakova Lilia, sono un'artista russa che vive in Svizzera.<br/> Dipingo acquerelli e dipinti ad olio, oltre a fabbricare bambole da collezione.",
+  "hp_to_see_aqua": "Per vedere tutte le immagine di acquerello",
+  "hp_to_see_oil": "Per vedere tutte le immagine di olio",
+
+  "frame_mag_header": "Vorrei invitarvi alla mia prossima mostra",
+  "frame_mag_partner": "Sul MAG ho presentato da",
+  "frame_mag_expo_history": "Storia delle mie mostre",
+
+  "frame_workshop_paint": "Dipingere",
+  "frame_workshop_can": "può",
+  "frame_workshop_everyone": "tutti",
+  "frame_workshop_description": "Vi invito alla mia formazione online sul disegno sul sito www.master-art.ch",
+
+  "page_expo_title": "Le mie mostre",
+
+  "page_aqua_header": "Immagini ad acquerello",
+  "page_aqua_welcome_message": "Qui sono presenti solo immagini ad acquerello. Puoi dare un'occhiata alle mie foto a olio",
+  "page_aqua_to_see_oil": "Per vedere le immagini a olio",
+
+  "page_oil_header": "Quadri a olio",
+  "page_oil_welcome_message": "Qui presenti solo immagini a olio. Puoi dare un'occhiata alle mie foto ad acquerello",
+  "page_oil_to_see_aqua": "Per vedere le immagini ad acquerello",
+
+  "page_dolls_header": "Collection dolls",
+  "page_dolls_welcome_message": "Here you can find my several dolls.",
+
+  "page_about_header": "A proposito di me",
+  "page_about_p1": "Ho sempre amato creare. Da quando avevo 7 anni avevo frequentato lo studio di architettura di Vladislav Kirpichev (premio del premio UNESCO). Cosa mi ha dato? Il volo della fantasia, il frutto dell'immaginazione. È lì che ho imparato a pensare in modo creativo. Dopo la scuola ho frequentato i corsi di composizione, disegno e pittura per ottenere la possibilità di ottenere l'istruzione superiore presso l'Università Statale delle Arti e Industria di Mosca Stroganov. Le mie tecniche preferite sono acquarello, pittura a olio, scultura.",
+  "page_about_p2": "Dopo la mia laurea ho avuto la possibilità di collaborare con molti architetti esperti e di talento. Insieme abbiamo realizzato le idee e i concetti più audaci. E poi ho capito che non era sufficiente per me avere solo un approccio creativo. Come architetto progettista ho dovuto imparare a sentire il cliente, realizzare tutti i suoi piani e idee e pensare in modo creativo.",
+  "page_about_p3": "Inoltre, sono sempre stato affascinato dal mondo delle bambole. Mi sono diplomato alla Scuola d'arte delle bambole a Mosca e ho preso parte a numerose mostre d'arte presso la Casa d'artista centrale e nella Galleria di Elena Gromova.",
+  "page_about_p4": "E ora insegno ai bambini a pensare, a vedere, a lavorare. Per questo mi sono laureato i corsi di Art Therapy prima a Mosca, poi in una scuola d'arte a Milano.",
+  "page_about_contacts1": "Si vous avez une excuse pour me contacter, vous pouvez toujours m'écrire par e-mail",
+  "page_about_contacts2": "or call me at the number"
+
+}

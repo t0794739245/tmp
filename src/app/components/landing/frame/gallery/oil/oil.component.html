@@ -1,0 +1,25 @@
+<div>
+  <h3 [innerHTML]="tr.menu_oil">Масленные работы</h3>
+  <div class="container">
+    <ng-template ngFor let-img [ngForOf]="list" let-i="index" let-even="even">
+      <div class="img" (click)="popup(i)">
+        <div class="wrapper">
+          <div class="picture"
+               [style.backgroundImage]="'url('+img.path+')'"
+          ><img [src]="img.path" alt=""></div>
+          <div class="image-panel">
+            <p class="header">
+              <span [innerHTML]="img.name"></span>
+              <span class="sold" *ngIf="img.sold">(<span [innerHTML]="tr.sold"></span>)</span>
+            </p>
+            <p class="size" *ngIf="img.format" [innerHTML]="img.format"></p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+
+  <p>
+    <a class="btn" [routerLink]="['/', currLang.name, 'oil']"><span [innerHTML]="tr.hp_to_see_oil"></span> >>></a>
+  </p>
+</div>

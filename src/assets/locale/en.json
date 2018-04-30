@@ -1,0 +1,47 @@
+{
+  "september": "September",
+  "sold": "Sold",
+  "menu_hompage": "Homepage",
+  "menu_oil": "Oil pictures",
+  "menu_aqua": "Watercolor",
+  "menu_dolls": "Art dolls",
+  "menu_expo": "Exhibition",
+  "menu_about": "About me",
+
+  "hp_header": "Lida Khomyakova",
+  "hp_header_gallery": "Gallery of my pictures",
+  "hp_welcome_message": "Allow me to introduce myself, my name is Khomyakova Lilia, I am a Russian artist who lives in Switzerland.<br>I paint watercolor and oil paintings, as well as I manufacture collectible dolls.",
+  "hp_to_see_aqua": "To see all picture of watercolor",
+  "hp_to_see_oil": "To see all picture of oil",
+
+  "frame_mag_header": "I would like to invite you on my next exhibition",
+  "frame_mag_partner": "On the MAG i presented by",
+  "frame_mag_expo_history": "History of my exhibitions",
+
+  "frame_workshop_paint": "Paint",
+  "frame_workshop_can": "can",
+  "frame_workshop_everyone": "everyone",
+  "frame_workshop_description": "I invite you to my online training on drawing on the site www.master-art.ch",
+
+  "page_expo_title": "My exhibitions",
+
+  "page_aqua_header": "Watercolor pictures",
+  "page_aqua_welcome_message": "Here present only watercolor pictures. You can take a look at my oil pictures",
+  "page_aqua_to_see_oil": "To see oil pictures",
+
+  "page_oil_header": "Oil pictures",
+  "page_oil_welcome_message": "Here present only oil pictures. You can take a look at my watercolor pictures",
+  "page_oil_to_see_aqua": "To see watercolor pictures",
+
+  "page_dolls_header": "Collection dolls",
+  "page_dolls_welcome_message": "Here you can find my several dolls.",
+
+  "page_about_header": "About me",
+  "page_about_p1": "I have always loved to create. Since I was 7 years old I had attended the architectural studio of Vladislav Kirpichev (laureate of the UNESCO prize). What has this given to me? The flight of fancy, the figment of the imagination. It was there that I learned to think creatively. After school I attended the courses on composition, drawing and painting to get a possibility of obtaining Higher Education in Stroganov Moscow State University of Arts and Industry. My favourite techniques are water-colour, oil painting, sculpture.",
+  "page_about_p2": "After my graduation I had the chance to collaborate with many experienced and talented architects. Together we realized the boldest ideas and concepts. And then I realized that it was not sufficient for me to only have a creative approach. As an architectural designer I had to learn to hear the client, realize all his plans and ideas and think creatively.",
+  "page_about_p3": "Moreover, I have always been charmed by the world of dolls. I have graduated the Doll Art School in Moscow and took part in many art exhibitions in Central House of Artist and in the Gallery of Elena Gromova.",
+  "page_about_p4": "And now I teach children to think, to see, to work. That is why I graduated the Art Therapy courses first in Moscow, then in an Art School in Milan.",
+  "page_about_contacts1": "Se hai un motivo per contattarmi, puoi sempre mandarmi un'email",
+  "page_about_contacts2": "o chiamami al numero"
+
+}

@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="col-sm-3">
+    <p>Lidaart.ch</p>
+    <h2 [innerHTML]="tr.hp_header">Khomyakova Lida</h2>
+    <p>
+      <a [href]="'mailto:'+env.email" [innerHTML]="env.email"></a><br>
+      <a [href]="'tel:'+env.tel" [innerHTML]="env.tel"></a>
+    </p>
+  </div>
+  <div class="col-sm-6 hidden-xs menu">
+    <a class="col-sm-6"
+       *ngFor="let item of menuItems"
+       [routerLink]="item.url?['/', currentLang.name, item.url]:['/', currentLang.name]"
+       [innerHTML]="tr[item.name]"></a>
+  </div>
+  <div class="col-sm-3 hidden-xs text-right">
+    <p>&nbsp;</p>
+    <p *ngFor="let item of langs">
+      <a (click)="selectLang(item)" [class.bold]="item == currentLang" >{{item.title}}</a>
+    </p>
+  </div>
+</div>

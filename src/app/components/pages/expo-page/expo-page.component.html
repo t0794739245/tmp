@@ -1,0 +1,56 @@
+<div class="background-white clearfix">
+  <h2 [innerHTML]="tr.page_expo_title" class="text-center"></h2>
+</div>
+
+<ng-template ngFor let-item [ngForOf]="list" let-i="index" let-even="even" let-last="last">
+  <div>
+    <div class="hr gray-begin background-white" *ngIf="even"></div>
+
+    <div class="background-gray text-center" [ngClass]="{'background-white':!even}">
+      <div class="container-small text-left">
+
+        <div class="col-sm-4 hidden-xs pointer">
+          <p>
+            <img [src]="item.images[0].path" class="width-full" (click)="popup(item.images, 0)">
+          </p>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="visible-xs col-xs-6">
+            <p>
+              <img [src]="item.images[0].path" class="width-full pointer" (click)="popup(item.images, 0)">
+            </p>
+          </div>
+          <div class="col-sm-12 col-xs-6 clearfix">
+            <h3 [innerHTML]="item.name" class="text-dark"></h3>
+            <p [innerHTML]="first"></p>
+
+            <p>
+              <span [innerHTML]="item.from"></span>
+              -
+              <span [innerHTML]="item.to"></span>
+            </p>
+            <hr class="dark dotted">
+            <p [innerHTML]="item.descripton"></p>
+          </div>
+
+          <div class="preview clearfix col-xs-12">
+            <ng-template  let-img ngFor [ngForOf]="item.images" let-first="first" let-i="index">
+              <div class="col-sm-4 col-xs-6" *ngIf="!first" (click)="popup(item.images, i)">
+                <div [style.backgroundImage]="'url('+img.path+')'" class="picture"></div>
+              </div>
+            </ng-template>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hr gray-end" [ngClass]="{'background-white':!last}" *ngIf="even"></div>
+  </div>
+
+</ng-template>
+<div class="hr white-end" *ngIf="list&&list.length&&((list.length%2) == 0)"></div>
+
+
+
+

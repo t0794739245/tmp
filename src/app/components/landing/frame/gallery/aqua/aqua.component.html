@@ -1,0 +1,30 @@
+<div>
+  <h3 [innerHTML]="tr.menu_aqua"></h3>
+  <div class="container">
+
+    <ng-template ngFor let-img [ngForOf]="list" let-i="index" let-even="even">
+      <div class="img"
+           [ngClass]="{'col-sm-3': img.vertical, 'col-xs-6': img.vertical, 'col-xs-12': !img.vertical, 'col-sm-6': !img.vertical}"
+           (click)="popup(i)"
+      >
+        <div class="picture"
+             [ngClass]="{'portrait':img.vertical,'landscape':!img.vertical}"
+             [style.backgroundImage]="'url('+img.path+')'"
+        >
+          <div class="image-panel">
+            <p class="header">
+              <span [innerHTML]="img.name"></span>
+              <span class="sold" *ngIf="img.sold">(<span [innerHTML]="tr.sold"></span>)</span>
+            </p>
+            <p class="size" *ngIf="img.format" [innerHTML]="img.format"></p>
+          </div>
+
+        </div>
+      </div>
+    </ng-template>
+
+  </div>
+  <p>
+    <a class="btn" [routerLink]="['/', currLang.name, 'aqua']"><span [innerHTML]="tr.hp_to_see_aqua"></span> >>></a>
+  </p>
+</div>

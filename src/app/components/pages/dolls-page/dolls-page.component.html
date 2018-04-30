@@ -1,0 +1,40 @@
+<div class="background-white clearfix text-center">
+  <h1 [innerHtml]="tr.page_dolls_header"></h1>
+  <hr class="width-60 dark dotted">
+  <p [innerHtml]="tr.page_dolls_welcome_message"></p>
+
+  <ng-template ngFor let-item [ngForOf]="list" let-i="index" let-even="even">
+    <div>
+      <div class="hr gray-begin background-white" *ngIf="even"></div>
+
+      <div class="background-gray text-center" [ngClass]="{'background-white':!even}">
+        <div class="container-small text-left">
+
+            <ng-template  let-img ngFor [ngForOf]="item.images" let-first="first" let-i="index">
+              <div class="col-xs-6 img" [ngClass]="first?'col-sm-7':'col-sm-5'" (click)="popup(item.images, i)">
+                <div
+                  class="picture"
+                  [style.backgroundImage]="'url('+img.path+')'"
+                >
+                  <img [src]="img.path" class="width-full">
+                  <div class="image-panel" *ngIf="img.name">
+                    <p class="header" [innerHTML]="img.name"></p>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+
+        </div>
+      </div>
+      <div class="hr gray-end background-white" *ngIf="even"></div>
+    </div>
+
+
+  </ng-template>
+</div>
+<div class="hr white-end" *ngIf="list&&list.length&&((list.length%2) == 0)"></div>
+
+
+
+
+

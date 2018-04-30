@@ -1,0 +1,8 @@
+<a *ngFor="let item of menuItems" (click)="_statusService.off()" [routerLink]="item.url" [innerHTML]="tr[item.name]"></a>
+<hr class="dark">
+<a
+  *ngFor="let item of langs"
+  (click.stop)="selectLang(item)"
+  [class.bold]="item == currentLang" >
+    {{item.title}}
+</a>

@@ -1,0 +1,42 @@
+@import "~compass-mixins/lib/compass"
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables"
+
+\:host
+  .container
+    -webkit-column-count: 2
+    -moz-column-count: 2
+    column-count: 2
+    font-size: 0
+
+    @media (min-width: $screen-sm)
+      -webkit-column-count: 4
+      -moz-column-count: 4
+      column-count: 4
+
+    &> div
+      font-size: 1rem
+      padding: 3px
+      display: inline-block
+      -webkit-column-break-inside: avoid
+      page-break-inside: avoid
+      break-inside: avoid
+
+    .img
+      position: relative
+      width: 100%
+      background-size: cover
+      background-position: center
+      background-repeat: no-repeat
+      text-align: left
+      color: white
+      .wrapper
+        position: relative
+        .picture
+          font-size: 0
+          img
+            width: 100%
+
+        p
+          margin: 0
+          margin-bottom: 0.5em
+

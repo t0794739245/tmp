@@ -1,0 +1,11 @@
+<a class="current" (click.stop)="toggleMenu()">
+  <span class="flag ru" [ngClass]="currentLang.name"></span>
+  <span class="lang">{{currentLang.name}}</span>
+</a>
+<div class="list" [ngClass]="{'hidden':!display}">
+  <a *ngFor="let item of langs" (click.stop)="selectLang(item)">
+    <span class="flag" [ngClass]="item.name"></span>
+    <span class="lang" [class.bold]="item == currentLang">{{item.title}}</span>
+  </a>
+</div>
+

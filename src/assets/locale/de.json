@@ -1,0 +1,47 @@
+{
+  "september": "September",
+  "sold": "Verkauft",
+  "menu_hompage": "Startseite",
+  "menu_oil": "Ölbilder",
+  "menu_aqua": "Aquarell",
+  "menu_dolls": "Kunstpuppen",
+  "menu_expo": "Ausstellung",
+  "menu_about": "Über mich",
+
+  "hp_header": "Lida Khomyakova",
+  "hp_header_gallery": "Galerie meiner Bilder",
+  "hp_welcome_message": "Gestatten Sie mir, mich vorzustellen, mein Name ist Khomyakova Lilia, ich bin ein russischer Künstler, der in der Schweiz lebt. Ich male Aquarelle und Ölgemälde, und ich stelle Sammlerpuppen her.",
+  "hp_to_see_aqua": "Um alle Bilder von Aquarell zu sehen",
+  "hp_to_see_oil": "Um alle Ölbilder zu sehen",
+
+  "frame_mag_header": "Ich möchte Sie zu meiner nächsten Ausstellung einladen",
+  "frame_mag_partner": "Auf der MAG präsentierte ich von",
+  "frame_mag_expo_history": "Geschichte meiner Ausstellungen",
+
+  "frame_workshop_paint": "Farbe",
+  "frame_workshop_can": "kann",
+  "frame_workshop_everyone": "jeder",
+  "frame_workshop_description": "Ich lade Sie zu meinem Online-Training zum Zeichnen auf der Website www.master-art.ch ein",
+
+  "page_expo_title": "Meine Ausstellungen",
+
+  "page_aqua_header": "Aquarell Bilder",
+  "page_aqua_welcome_message": "Hier präsentieren sich nur Aquarellbilder. Sie können sich meine Ölbilder ansehen",
+  "page_aqua_to_see_oil": "Um Ölbilder zu sehen",
+
+  "page_oil_header": "Ölbilder",
+  "page_oil_welcome_message": "Hier präsentieren sich nur Ölbilder. Sie können sich meine Aquarellbilder ansehen",
+  "page_oil_to_see_aqua": "To see watercolor pictures",
+
+  "page_dolls_header": "Collection dolls",
+  "page_dolls_welcome_message": "Um Aquarellbilder zu sehen",
+
+  "page_about_header": "Über mich",
+  "page_about_p1": "Ich habe es immer geliebt zu erschaffen. Seit ich sieben Jahre alt war, besuchte ich das Architekturbüro von Vladislav Kirpichev (Preisträger des UNESCO-Preises). Was hat mir das gegeben? Die Flucht der Phantasie, die Erfindung der Phantasie. Dort lernte ich kreativ zu denken. Nach der Schule besuchte ich die Kurse für Komposition, Zeichnen und Malen, um die Möglichkeit zu bekommen, eine höhere Ausbildung an der Moskauer Staatlichen Universität für Kunst und Industrie in Stroganov zu erhalten. Meine Lieblingstechniken sind Wasserfarbe, Ölmalerei, Skulptur.",
+  "page_about_p2": "Nach meinem Abschluss hatte ich die Chance, mit vielen erfahrenen und talentierten Architekten zusammenzuarbeiten. Zusammen haben wir die kühnsten Ideen und Konzepte realisiert. Und dann wurde mir klar, dass es für mich nicht ausreichte, nur kreativ zu sein. Als Architekturdesigner musste ich lernen, den Kunden zu hören, all seine Pläne und Ideen umzusetzen und kreativ zu denken.",
+  "page_about_p3": "Außerdem war ich schon immer von der Welt der Puppen begeistert. Ich habe die Doll Art School in Moskau absolviert und an vielen Kunstausstellungen im Central House of Artist und in der Galerie von Elena Gromova teilgenommen.",
+  "page_about_p4": "Und jetzt bringe ich Kindern bei, zu denken, zu sehen, zu arbeiten. Deshalb habe ich die Kunsttherapie-Kurse zuerst in Moskau, dann in einer Kunstschule in Mailand absolviert.",
+  "page_about_contacts1": "Wenn Sie einen Grund haben, mich zu kontaktieren, können Sie mir immer eine E-Mail senden",
+  "page_about_contacts2": "oder ruf mich unter der Nummer an"
+
+}

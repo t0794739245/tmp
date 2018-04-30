@@ -1,0 +1,69 @@
+[
+  {
+    "path": "/assets/oil/51.action.40.rXTSFT4M.jpg",
+    "name": "Пион",
+    "format": "117x80cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/oil/10.action.9.EvJx2RIh.jpg",
+    "name": "Остров",
+    "format": "170x100cm"
+  },
+  {
+    "path": "/assets/oil/21.action.14.S2DzUNAA.jpg",
+    "name": "Середина лета",
+    "format": "80x117cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/oil/4.action.4.x85Pa22v.jpg",
+    "name": "Фрибург",
+    "sold": true,
+    "format": "60x120cm"
+  },
+  {
+    "path": "/assets/oil/46.action.35.PecrMATt.jpg",
+    "name": "Шторм",
+    "format": "60x80cm"
+  },
+  {
+    "path": "/assets/oil/7.action.6.8rt5ce45.jpg",
+    "name": "Монтрё",
+    "format": "100x100cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/oil/18.action.11.z348X6ii.jpg",
+    "name": "Розовые сны",
+    "format": "80x117cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/oil/22.action.15.FDpY6S7R.jpg",
+    "name": "Лёйкербад",
+    "sold": true,
+    "format": "100x81cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/oil/43.action.32.AKBAZFip.jpg",
+    "name": "Маттернхорн",
+    "sold": true,
+    "format": "80x120cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/oil/47.action.36.P9ypBEAC.jpg",
+    "name": "Снижение",
+    "format": "117x100cm",
+    "vertical": true
+  },
+  {
+    "path": "/assets/aqua/50.action.39.TVDtBex7.jpg",
+    "name": "Лето",
+    "format": "58x70cm",
+    "vertical": true
+  }
+]
+

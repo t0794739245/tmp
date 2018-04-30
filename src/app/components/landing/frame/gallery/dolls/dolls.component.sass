@@ -1,0 +1,49 @@
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables"
+\:host
+  .container
+    font-size: 0
+    margin-bottom: 30px
+    @media (min-width: $screen-sm)
+      max-width: 600px
+
+    .img
+      font-size: 1rem
+      padding: 3px
+      display: inline-block
+      vertical-align: top
+      width: 33.333%
+      float: left
+      @media (min-width: $screen-sm)
+        width: 40%
+
+      &:first-child
+        width: 100%
+        @media (min-width: $screen-sm)
+          width: 60%
+
+        .picture
+          padding-bottom: 136%
+
+
+      .picture
+        padding-bottom: 67%
+        position: relative
+        .panel
+          padding: 10px
+          position: absolute
+          bottom: 0
+          left: 0
+          width: 100%
+          background-color: rgba(black, .3)
+          font-size: .8em
+          text-align: left
+          @media (min-width: $screen-sm)
+            font-size: 1em
+            padding: 20px
+          .header
+            font-size: 1em
+            color: white
+
+
+
+

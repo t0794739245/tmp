@@ -1,0 +1,33 @@
+<div class="background-white">
+  <div class="container text-center frame">
+    <h1 [innerHtml]="tr.hp_header"></h1>
+    <hr class="width-60 dark dotted">
+    <p [innerHtml]="tr.hp_welcome_message"></p>
+  </div>
+
+  <div class="clearfix frame">
+    <landing-frame-mag class="col-sm-6 no-padding"></landing-frame-mag>
+    <landing-frame-masterclass class="frame col-sm-6 no-padding"></landing-frame-masterclass>
+  </div>
+  <div class="text-center">
+    <h2 [innerHtml]="tr.hp_header_gallery"></h2>
+    <hr class="width-60 dark dotted">
+  </div>
+
+  <div class="hr gray-begin"></div>
+  <div class="text-center clearfix background-gray">
+    <landing-frame-gallery-oil></landing-frame-gallery-oil>
+  </div>
+  <div class="hr gray-end"></div>
+
+  <div class="text-center">
+    <landing-frame-gallery-aqua></landing-frame-gallery-aqua>
+  </div>
+
+  <div class="hr gray-begin"></div>
+  <div class="text-center clearfix background-gray">
+    <landing-frame-gallery-dolls></landing-frame-gallery-dolls>
+  </div>
+</div>
+
+<div class="hr gray-end"></div>

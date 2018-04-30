@@ -1,0 +1,42 @@
+[
+  {
+    "images": [
+      {
+        "path": "/assets/dolls/IMG_5273.jpg",
+        "name": "Alice"
+      },
+      {
+        "path": "/assets/dolls/IMG_5277.jpg",
+        "name": ""
+      },
+      {
+        "path": "/assets/dolls/IMG_5286.jpg",
+        "name": ""
+      },
+      {
+        "path": "/assets/dolls/IMG_5283.jpg",
+        "name": ""
+      }
+    ]
+  },
+  {
+    "images": [
+      {
+        "path": "/assets/dolls/IMG_5297.jpg",
+        "name": "Veronica"
+      },
+      {
+        "path": "/assets/dolls/IMG_5290.jpg",
+        "name": ""
+      },
+      {
+        "path": "/assets/dolls/IMG_5291.jpg",
+        "name": ""
+      },
+      {
+        "path": "/assets/dolls/IMG_5294.jpg",
+        "name": ""
+      }
+    ]
+  }
+]

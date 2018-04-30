@@ -1,0 +1,104 @@
+{
+  "oil": [
+    {
+      "path": "/assets/oil/10.action.9.EvJx2RIh.jpg",
+      "name": "Остров",
+      "format": "170x100cm"
+    },
+    {
+      "path": "/assets/oil/21.action.14.S2DzUNAA.jpg",
+      "name": "Середина лета",
+      "format": "80x117cm"
+    },
+    {
+      "path": "/assets/oil/43.action.32.AKBAZFip.jpg",
+      "name": "Маттернхорн",
+      "sold": true,
+      "format": "80x120cm"
+    },
+    {
+      "path": "/assets/oil/7.action.6.8rt5ce45.jpg",
+      "name": "Монтрё",
+      "format": "100x100cm"
+    },
+    {
+      "path": "/assets/oil/18.action.11.z348X6ii.jpg",
+      "name": "Розовые сны",
+      "format": "80x117cm"
+    },
+    {
+      "path": "/assets/oil/22.action.15.FDpY6S7R.jpg",
+      "name": "Лёйкербад",
+      "sold": true,
+      "format": "100x81cm"
+    },
+    {"path": "/assets/oil/4.action.4.x85Pa22v.jpg",
+      "name": "Фрибург",
+      "sold": true,
+      "format": "60x120cm"
+    },
+    {
+      "path": "/assets/oil/46.action.35.PecrMATt.jpg",
+      "name": "Шторм",
+      "format": "60x80cm"
+    }
+  ],
+  "aqua": [
+    {
+      "path": "/assets/aqua/8.action.7.AFIwJJ78.jpg",
+      "name": "Закат, молодость",
+      "sold": true,
+      "format": "A3"
+    },
+    {
+      "path": "/assets/aqua/41.action.30.K8PWnLZz.jpg",
+      "name": "Детство",
+      "format": "A3"
+    },
+    {
+      "path": "/assets/aqua/9.action.8.tDMeHu78.jpg",
+      "name": "Одно утро",
+      "sold": true,
+      "format": "A3",
+      "vertical": true
+    },
+    {
+      "path": "/assets/aqua/19.action.12.UChF6V2c.jpg",
+      "name": "Морфо пелидес",
+      "sold": true,
+      "format": "A3",
+      "vertical": true
+    },
+    {
+      "path": "/assets/aqua/20.action.13.v6wvthXV.jpg",
+      "name": "Нью-Йорк",
+      "format": "A3",
+      "vertical": true
+    },
+    {"path": "/assets/aqua/39.action.28.ckjmybL3.jpg",
+      "name": "Густой лес",
+      "format": "A3",
+      "vertical": true
+    }
+  ],
+  "dolls": [
+    [
+      {
+        "path": "/assets/dolls/IMG_5273.jpg",
+        "name": "Алиса"
+      },
+      {"path": "/assets/dolls/IMG_5277.jpg"},
+      {"path": "/assets/dolls/IMG_5286.jpg"},
+      {"path": "/assets/dolls/IMG_5283.jpg"}
+    ],
+    [
+      {
+        "path": "/assets/dolls/IMG_5297.jpg",
+        "name": "Верооника"
+      },
+      {"path": "/assets/dolls/IMG_5290.jpg"},
+      {"path": "/assets/dolls/IMG_5291.jpg"},
+      {"path": "/assets/dolls/IMG_5294.jpg"}
+    ]
+  ]
+}

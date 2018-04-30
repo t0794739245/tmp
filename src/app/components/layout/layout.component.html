@@ -1,0 +1,24 @@
+<div class="preloader" *ngIf="is_preloader">
+  <div class="sk-folding-cube">
+    <div class="sk-cube1 sk-cube"></div>
+    <div class="sk-cube2 sk-cube"></div>
+    <div class="sk-cube4 sk-cube"></div>
+    <div class="sk-cube3 sk-cube"></div>
+  </div>
+</div>
+<div [ngClass]="{'active':status}" class="background-dark">
+
+  <app-layout-mobile-menu class="menu"></app-layout-mobile-menu>
+
+  <div class="layout" (click)="closeMenu()">
+    <div class="wrapper">
+      <div>
+        <app-menu (statusMenu)="statusMenu($event)"></app-menu>
+
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <app-footer class="footer"></app-footer>
+
+  </div>
+</div>

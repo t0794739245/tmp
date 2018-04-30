@@ -1,0 +1,54 @@
+@import "~compass-mixins/lib/compass"
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/_variables"
+
+$footer-height: 270px
+\:host
+  .menu, app-layout-mobile-menu
+    position: fixed
+    top: 0
+    height: 100%
+    transition: all .5s ease
+    overflow-y: scroll
+    width: 70%
+    left: -70%
+    @media (min-width: $screen-sm)
+      width: 70% !important
+      left: -70% !important
+
+  .layout
+    @include box-shadow(0px 0px 30px 0px rgba(0,0,0,0.4))
+    margin-left: 0
+    width: 100%
+    overflow: hidden
+    transition: all .5s ease
+    @media (min-width: $screen-sm)
+      margin-left: 0 !important
+      width: 100% !important
+
+    .wrapper
+      position: relative
+      z-index: 2
+      width: 100vw
+      min-height: 100vh
+      margin-bottom: 200px
+      @media (min-width: $screen-sm)
+        margin-bottom: $footer-height
+      &>div
+        min-height: calc( 100vh - #{$footer-height+20} )
+
+    .footer
+      margin-top: -200px
+      min-height: 200px
+
+      display: block
+      @media (min-width: $screen-sm)
+        margin-top: -$footer-height
+        min-height: $footer-height
+
+  .active
+    .menu, app-layout-mobile-menu
+      width: 70%
+      left: 0
+    .layout
+      margin-left: 70%
+      width: 30%
